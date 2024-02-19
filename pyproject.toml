@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dddpy"
+version = "0.1.0"
+description = "Thread-safe Python package to enforce, lint and diagram tactical domain-driven design implementation encouraging ubiquitous language adoption and the promotion of maintainable code"
+authors = ["Tom Coathup <github@tom-ac.dev>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
