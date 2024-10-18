@@ -1,5 +1,9 @@
 SHELL=/bin/bash
 
+.PHONY: docs
+docs:
+	sphinx-build -M html docs docs/_build
+
 .PHONY: install
 install:
 	poetry install
